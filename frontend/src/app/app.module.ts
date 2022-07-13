@@ -32,10 +32,8 @@ import { SignupComponent } from './signup/signup.component'
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    StarRatingModule,
     HttpClientModule
-    // StarRatingComponent,
-    // RatingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
