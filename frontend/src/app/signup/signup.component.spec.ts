@@ -11,9 +11,13 @@ describe('SignupComponent', () => {
       declarations: [ SignupComponent ]
     })
     .compileComponents();
+<<<<<<< HEAD
   });
 
   beforeEach(() => {
+=======
+
+>>>>>>> 611d9f6e00ae2e36a25f561bf58089995754b270
     fixture = TestBed.createComponent(SignupComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

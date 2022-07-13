@@ -1,14 +1,14 @@
 div{
     display: flex;
     flex-wrap: wrap;
-     
+    /* justify-content: center; */
 }
 
 div a{
-    background-color: #c3c2c2;
-    padding: .3rem 1rem;
-    margin: .2rem .15rem;
+    background-color: bisque;
+    padding: 0.3rem 1rem;
+    margin:.2rem .15rem;
     border-radius: 10rem;
     color: blue;
-    font-weight: 600;
+    font-weight: 500;
 }

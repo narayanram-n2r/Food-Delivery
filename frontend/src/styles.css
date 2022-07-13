@@ -3,12 +3,18 @@
 
 *{
     box-sizing: border-box;
+
+}
+
+html{
+    font-size: 16px;
 }
 body{
     margin: 0;
-    font-family: Quicksand , sans-serif;
+    font-family: Quicksand, sans-serif;
     font-size: 18px;
 }
+
 a{
     text-decoration: none;
 }

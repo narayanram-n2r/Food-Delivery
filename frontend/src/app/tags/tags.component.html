@@ -1,16 +1,6 @@
-<<<<<<< HEAD
 <div *ngIf="tags" [style.justifyContent]="justifyContent">
-    <a *ngFor="let tag of tags" routerLink = "/tag/{{tag.name}}">{{tag.name}}({{tag.count}})</a>
+    <a *ngFor="let tag of tags" routerLink="/tag/{{tag.name}}">{{tag.name}}({{tag.count}})</a>
 </div>
-<div *ngIf="foodPageTags" [style.justifyContent]="justifyContent">
-    <a *ngIf="let tagname of foodPageTags" routerLink = "/tag//{{tagname.name}}">{{tagname}}</a>
+<div *ngIf="foodPagetags" [style.justifyContent]="justifyContent">
+    <a *ngFor="let tagname of foodPagetags" routerLink="/tag/{{tagname}}">{{tagname}}</a>
 </div>
-=======
-
-
-
-<div *ngIf="foodpageTags">
-    <a *ngFor="let tagname of foodpageTags" routerLink="/tag/{{tagname}}"></a>
-
-</div>
->>>>>>> 09fbc5a97eb9a6c91109df7a6b16cedde1e3eee9
