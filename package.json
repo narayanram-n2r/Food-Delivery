@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "tslib": "^2.4.0"
+  },
+  "dependencies": {
+    "@angular/cli": "^14.0.5"
+  }
+}
