@@ -9,6 +9,7 @@ import { Foods } from '../shared/models/food';
   styleUrls: ['./foodpage.component.css']
 })
 export class FoodpageComponent implements OnInit {
+  food!:Foods 
 
   food!:Foods;
   constructor(private activatedRoute:ActivatedRoute,

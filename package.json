@@ -1,4 +1,10 @@
 {
+<<<<<<< HEAD
+=======
+  "devDependencies": {
+    "tslib": "^2.4.0"
+  },
+>>>>>>> 09fbc5a97eb9a6c91109df7a6b16cedde1e3eee9
   "dependencies": {
     "@angular/cli": "^14.0.5"
   }

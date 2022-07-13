@@ -1,11 +1,16 @@
 <div class="container">
+<<<<<<< HEAD
     <img [src] = "food.imageUrl" [alt]="food.name">
+=======
+    <img [src]="food.imageUrl" alt="food.name">
+>>>>>>> 09fbc5a97eb9a6c91109df7a6b16cedde1e3eee9
 </div>
 <div class="details">
     <div class="header">
         <span class="name">
             {{food.name}}
         </span>
+<<<<<<< HEAD
         <span class="favorite {{food.favorite?'':'not'}}">
             
         </span>
@@ -40,3 +45,44 @@
     </div>
      <button>Add to cart</button>
 </div>
+=======
+        <span class="favorite {{food.favorite?:'':'not'}}">
+
+        </span>
+
+        
+    </div >
+
+</div class="star">
+     <star-rating [value]="food.star"
+      [totalstars]="5"
+      checkedcolor="red"
+      uncheckedcolor="black"
+      size="24px"
+      [readonly]="true">
+     </star-rating>
+</div>
+<div class="origins">
+    <span *ngFor="let origins of food.origins">
+        {{origin}}
+  
+    </span>
+</div>
+<div class="tag">
+    <app-tags [foodpageTags]="food.tags"> </app-tags>
+
+</div>
+<div class="cook-time">
+    <span>
+        time to cook about <strong>{{food.cookTime}}</strong>Minutes
+    </span>
+</div>
+<div class="price">
+    <span>
+        {{food.price| currency}}
+    </span>
+</div>
+<button>Add to cart</button>
+
+</div>
+>>>>>>> 09fbc5a97eb9a6c91109df7a6b16cedde1e3eee9

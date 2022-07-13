@@ -1,15 +1,24 @@
-import { Component, OnInit } from '@angular/core';
+import { Injectable } from '@angular/core';
 
-@Component({
-  selector: 'app-services',
-  templateUrl: './services.component.html',
-  styleUrls: ['./services.component.css']
+@Injectable({
+  provideIn: 'root'
 })
-export class ServicesComponent implements OnInit {
+export class ServicesComponent {
 
   constructor() { }
+  
 
-  ngOnInit(): void {
-  }
+getAll():string[]{
+  return [
+    '/assets/food-1.jpg',
+    '/assets/food-2.jpg',
+    '/assets/food-3.jpg',
+    '/assets/food-4.jpg',
+    '/assets/food-5.jpg',
+    '/assets/food-6.jpg',
+    '/assets/food-7.jpg',
+    '/assets/food-8.jpg',
 
+  ]
+ }
 }
