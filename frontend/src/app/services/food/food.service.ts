@@ -9,7 +9,6 @@ export class FoodService {
 
   constructor() { }
 
-<<<<<<< HEAD
   getFoodById(id:number):Foods{
     return this.getAll().find(food => food.id==id)!;
   }
@@ -17,23 +16,10 @@ export class FoodService {
   getAllFoodByTag(tag:string):Foods[]{
     return tag =="All"?
     this.getAll():this.getAll().filter(food => food.tags?.includes(tag));
-=======
-  getFoodById(id: number) {
-    return this.getAll().find(food => food.id == id)!;
-  }
-
-  getAllFoodByTag(tag: string): Foods[] {
-
-    return tag == "All" ?
-      this.getAll() : this.getAll().filter(food => food.tags?.includes(tag));
-
-
->>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
 
   }
 
   getAllTag():Tag[]{
-<<<<<<< HEAD
     return[
       {name:'All',count:18},
       {name:'desert',count:1},
@@ -158,122 +144,3 @@ export class FoodService {
   }
 }
 
-// '/assets/food1.jpg',
-//       '/assets/food2.jpg',
-//       '/assets/food3.jpg',
-//       '/assets/food4.jpg',
-//       '/assets/food5.jpg',
-//       '/assets/food6.jpg',
-//       '/assets/food7.jpg',
-//       '/assets/food8.jpg'
-=======
-    return [
-      {name: 'All', count:14},
-      {name: 'FastFood', count:4},
-      {name: 'Pizza', count:2},
-      {name: 'Lunch', count:3},
-      {name: 'SlowFood', count:2},
-      {name: 'HamBurger', count:1},
-      {name: 'Fry', count:1},
-      {name: 'Soup', count:1},
-    ]
-  }
-
-  getAll(): Foods[] {
-    return [
-
-      {
-        id: 1,
-        name: 'MeatBall',
-        price: 20,
-        cookTime: '20-30',
-        favorite: true,
-        origins: ["italy"],
-        star: 1.7,
-        imageUrl: '/assets/food-2.jpg',
-        tags: ['slowFood', 'Lunch'],
-      },
-
-      {
-        id: 2,
-        name: 'MeatBall',
-        price: 20,
-        cookTime: '20-30',
-        favorite: false,
-        origins: ['persia', 'middle east', 'china'],
-        star: 1.7,
-        imageUrl: '/assets/food-2.jpg',
-        tags: ['slowFood', 'Lunch'],
-      },
-      {
-        id: 3,
-        name: 'MeatBall',
-        price: 20,
-        cookTime: '20-30',
-        favorite: true,
-        origins: ['persia', 'middle east', 'china'],
-        star: 1.7,
-        imageUrl: '/assets/food-2.jpg',
-        tags: ['slowFood', 'Lunch'],
-      },
-      {
-        id: 4,
-        name: 'MeatBall',
-        price: 20,
-        cookTime: '20-30',
-        favorite: true,
-        origins: ['persia', 'middle east', 'china'],
-        star: 1.7,
-        imageUrl: '/assets/food-2.jpg',
-        tags: ['slowFood', 'Lunch'],
-      },
-      {
-        id: 5,
-        name: 'MeatBall',
-        price: 20,
-        cookTime: '20-30',
-        favorite: true,
-        origins: ['persia', 'middle east', 'china'],
-        star: 1.7,
-        imageUrl: '/assets/food-2.jpg',
-        tags: ['slowFood', 'Lunch'],
-      },
-      {
-        id: 6,
-        name: 'MeatBall',
-        price: 20,
-        cookTime: '20-30',
-        favorite: true,
-        origins: ['persia', 'middle east', 'china'],
-        star: 1.7,
-        imageUrl: '/assets/food-2.jpg',
-        tags: ['slowFood', 'Lunch'],
-      },
-      {
-        id: 7,
-        name: 'MeatBall',
-        price: 20,
-        cookTime: '20-30',
-        favorite: true,
-        origins: ['persia', 'middle east', 'china'],
-        star: 1.7,
-        imageUrl: '/assets/food-2.jpg',
-        tags: ['slowFood', 'Lunch'],
-      },
-      {
-        id: 8,
-        name: 'MeatBall',
-        price: 20,
-        cookTime: '20-30',
-        favorite: true,
-        origins: ['persia', 'middle east', 'china'],
-        star: 1.7,
-        imageUrl: '/assets/food-2.jpg',
-        tags: ['slowFood', 'Lunch'],
-      },
-
-
-    ];
-  }
-}
->>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
