@@ -1,1 +1,8 @@
-<p>home works!</p>
+<app-search></app-search>
+<app-tags></app-tags>
+<ul>
+    <li *ngFor="let food of foods"> <!-- Puts all data from foods to food-->
+        <a routerLink="/food/{{food.id}}"></a>
+        <img src="{{food}}" alt="food images">
+    </li>
+</ul>

@@ -1,1 +1,42 @@
-<p>foodpage works!</p>
+<div class="container">
+    <img [src] = "food.imageUrl" [alt]="food.name">
+</div>
+<div class="details">
+    <div class="header">
+        <span class="name">
+            {{food.name}}
+        </span>
+        <span class="favorite {{food.favorite?'':'not'}}">
+            
+        </span>
+    </div>
+    <div class="rating">
+        <star-rating [value] = "food.star" 
+        [totalstars]="S" 
+        checkedcolors = "red"
+        uncheckedcolor = "black"
+        size = "24px" 
+        [readonly] = "true">
+    </star-rating>
+        
+    </div>
+    <div class="origins">
+        <span *ngFor="let origin of food.origins">
+            {{origin}}
+        </span>
+    </div>
+    <div class="tag">
+        <app-tags [foodPageTags]="food.tags" justifyContent="start"></app-tags>
+    </div>
+    <div class="cook-time">
+        <span>
+            Time to cook about <strong>{{food.cookTime }}</strong>Minutes
+        </span>
+    </div>
+    <div class="price">
+        <span>
+            {{food.price| currency}}
+        </span>
+    </div>
+     <button>Add to cart</button>
+</div>

@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { IfStmt } from '@angular/compiler';
+import { Component, Input, OnInit } from '@angular/core';
+import { FoodService } from '../services/food/food.service';
+import { Tag } from '../shared/models/Tag';
 
 @Component({
   selector: 'app-tags',
@@ -7,9 +10,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TagsComponent implements OnInit {
 
-  constructor() { }
+  //Code Added for FoodPage (Start)
+  @Input()
+  foodPageTags?:string[];
+
+  @Input()
+  justifyContent:string = 'center';
+
+  tags?:Tag[] =[];
+  constructor(private fs:FoodService) { }
 
   ngOnInit(): void {
+    if(!this.foodPageTags)
+    this.tags = this.fs.getAllTag();
   }
 
 }

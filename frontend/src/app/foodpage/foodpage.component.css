@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+
+}
+
+.container > *{
+    min-width: 25rem;
+    max-width: 40rem;
+}
+
+img{
+    border-radius: 3rem;
+    flex: 1 0;
+    object-fit: cover;
+    height: 30rem;
+    margin: 1rem;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    border-radius: 3rem;
+    padding: 2rem;
+    color: black;
+    margin-left: 1rem;
+
+}
+
+.details .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details .name{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.details .favorite{
+    color: #e72929;
+    font-size: 2rem;
+}
+
+.details .favorite.not{
+    color: grey;
+}
+
+.detials .origins{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.details .orings > span{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: .5rem .5rem .5rem 0;
+    border-radius: 2rem;
+    background-color: grey;
+    color: white;
+}
+
+.details .cook-time{
+    margin: 1rem;
+}
+
+.detials .cook-time span{
+    padding: .6rem 2rem .6rem 0;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+}
+
+.details .price{
+    font-size: 1.8rem;
+    margin: 1rem 1rem 1rem 0;
+    color: green;
+}
+
+.details .price::before{
+    content: "Price: ";
+    color: grey;
+}
+
+.details button{
+    color: white;
+    background-color:  #e72929 ;
+    border: none;
+    font-size:1.2rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    outline: none;
+}
+
+.detials button:hover{
+    opacity: .9;
+    cursor: pointer;
+}
