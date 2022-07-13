@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tags',
@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tags.component.css']
 })
 export class TagsComponent implements OnInit {
+  @Input()
+  foodPagetags?:string[];
 
   constructor() { }
 
   ngOnInit(): void {
+    if(!this.foodPagetags)
+    this.tags = this.fs.getAllTag();
   }
 
 }

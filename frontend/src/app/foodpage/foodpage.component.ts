@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./foodpage.component.css']
 })
 export class FoodpageComponent implements OnInit {
+  food!:Foods 
 
   constructor() { }
 
