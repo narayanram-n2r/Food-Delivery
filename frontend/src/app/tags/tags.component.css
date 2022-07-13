@@ -1,7 +1,6 @@
 div{
     display: flex;
     flex-wrap: wrap;
-<<<<<<< HEAD
     /* justify-content: center; */
 }
 
@@ -12,16 +11,4 @@ div a{
     border-radius: 10rem;
     color: blue;
     font-weight: 500;
-=======
-     
-}
-
-div a{
-    background-color: #c3c2c2;
-    padding: .3rem 1rem;
-    margin: .2rem .15rem;
-    border-radius: 10rem;
-    color: blue;
-    font-weight: 600;
->>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
 }
