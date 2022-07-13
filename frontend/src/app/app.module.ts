@@ -5,12 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { FormsModule } from '@angular/forms';
+import { StarRatingComponent, StarRatingModule } from 'angular-star-rating';
 import { SearchComponent } from './search/search.component';
-import { ServicesComponent } from './services/services.component';
-import { SharedComponent } from './shared/shared.component';
 import { TagsComponent } from './tags/tags.component';
-import { FoodpageComponent } from './foodpage/foodpage.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
+import { FoodpageComponent } from './foodpage/foodpage.component';
+
+// import { StarRatingComponent } from 'ng-starrating';
+// import { RatingModule } from 'ng-starrating';
 
 @NgModule({
   declarations: [
@@ -18,15 +21,17 @@ import { CartPageComponent } from './cart-page/cart-page.component';
     HeaderComponent,
     HomeComponent,
     SearchComponent,
-    ServicesComponent,
-    SharedComponent,
     TagsComponent,
-    FoodpageComponent,
-    CartPageComponent
+    CartPageComponent,
+    FoodpageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    StarRatingModule
+    // StarRatingComponent,
+    // RatingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -11,9 +11,7 @@ describe('FoodpageComponent', () => {
       declarations: [ FoodpageComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(FoodpageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
