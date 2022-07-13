@@ -4,6 +4,7 @@ div{
     margin-top: 3rem;
     margin-bottom: 1.5rem;
 }
+<<<<<<< HEAD
 
 div input{
     border-radius: 10rem 0 0 10rem;
@@ -19,11 +20,27 @@ div input{
 
 div button{
     color: grey;
+=======
+div input{
+    border-radius: 10rem 0 0 10rem;
+    border: none;
+    height: 3rem;
+    width: 20rem;
+    background-color: #f1f1f1;
+    padding: 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+}
+div button{
+    color: gray;
+>>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
     height: 3rem;
     width: 5rem;
     font-size: 1rem;
     border-radius: 0 10rem 10rem 0;
     border: none;
+<<<<<<< HEAD
     background-color: red;
     color: white;
     opacity: 0.8;
@@ -34,3 +51,15 @@ div button:hover{
     opacity: 1;
     cursor: pointer;
 }
+=======
+    background-color: #e72929;
+    color: white;
+    opacity: .8;
+    outline: none;
+
+}
+div button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+>>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091

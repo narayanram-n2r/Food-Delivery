@@ -3,6 +3,7 @@
 
 *{
     box-sizing: border-box;
+<<<<<<< HEAD
 
 }
 
@@ -15,6 +16,14 @@ body{
     font-size: 18px;
 }
 
+=======
+}
+body{
+    margin: 0;
+    font-family: Quicksand , sans-serif;
+    font-size: 18px;
+}
+>>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
 a{
     text-decoration: none;
 }

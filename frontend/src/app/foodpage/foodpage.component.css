@@ -4,6 +4,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 3rem;
+<<<<<<< HEAD
 }
 
 .container > *{
@@ -20,26 +21,78 @@ img{
     margin: 1rem;
 }
 
+=======
+<<<<<<< HEAD
+
+}
+
+=======
+}
+>>>>>>> 09fbc5a97eb9a6c91109df7a6b16cedde1e3eee9
+.container > *{
+    min-width: 25rem;
+    max-width: 40rem;
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> 09fbc5a97eb9a6c91109df7a6b16cedde1e3eee9
+img{
+    border-radius: 3rem;
+    flex: 1 0;
+    object-fit: cover;
+    height: 30rem;
+    margin: 1rem;
+<<<<<<< HEAD
+}
+
+=======
+
+}
+>>>>>>> 09fbc5a97eb9a6c91109df7a6b16cedde1e3eee9
+>>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
 .details{
     width: 100%;
     display: flex;
     flex-direction: column;
     flex: 1 0;
+<<<<<<< HEAD
     border-radius: 3 rem;
     padding: 2rem;
     color: black;
     margin-left: 1rem;
 }
 
+=======
+    border-radius: 3rem;
+    padding: 2rem;
+    color: black;
+    margin-left: 1rem;
+<<<<<<< HEAD
+
+}
+
+=======
+}
+>>>>>>> 09fbc5a97eb9a6c91109df7a6b16cedde1e3eee9
+>>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
 .details .header{
     display: flex;
     justify-content: space-between;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 09fbc5a97eb9a6c91109df7a6b16cedde1e3eee9
+>>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
 .details .name{
     font-size: 2rem;
     font-weight: bold;
 }
+<<<<<<< HEAD
 
 .details .favourite{
     color:red;
@@ -69,29 +122,134 @@ img{
 }
 
 .details .cook-time span{
+=======
+<<<<<<< HEAD
+
+.details .favorite{
+    color: #e72929;
+    font-size: 2rem;
+}
+
+.details .favorite.not{
+    color: grey;
+}
+
+.detials .origins{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.details .orings > span{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: .5rem .5rem .5rem 0;
+    border-radius: 2rem;
+    background-color: grey;
+    color: white;
+}
+
+.details .cook-time{
+    margin: 1rem;
+}
+
+.detials .cook-time span{
+>>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
     padding: .6rem 2rem .6rem 0;
     border-radius: 10rem;
     font-size: 1.3rem;
 }
 
+<<<<<<< HEAD
+=======
+=======
+.detail .favorite{
+    color: #e72929;
+    font-size: 2.5rem;
+}
+.details .favorite.not{
+    color: grey;
+}
+.details .origins{
+    display: flex;
+    flex-direction: wrap;
+    margin: 1rem 0;
+}
+.details .origins >span{
+    padding: .5rem;
+    font-size: 1.2rem;
+    margin: .5rem .5rem .5rem 0;
+    border-radius: 2rem;
+    background-color: gray;
+    color: white;
+}
+.detail .cook-time{
+    margin: 1rem;
+}
+.detailas .cook-time span{
+    padding: .6rem  2rem .6rem 0;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+
+}
+>>>>>>> 09fbc5a97eb9a6c91109df7a6b16cedde1e3eee9
+>>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
 .details .price{
     font-size: 1.8rem;
     margin: 1rem 1rem 1rem 0;
     color: green;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
 
 .details .price::before{
     content: "Price: ";
     color: grey;
+<<<<<<< HEAD
 
 }
 
 .details button{
     color:white;
     background-color: red;
+=======
+}
+
+.details button{
+    color: white;
+    background-color:  #e72929 ;
+    border: none;
+    font-size:1.2rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    outline: none;
+}
+
+.detials button:hover{
+=======
+.details .price::before{
+    content: "price: ";
+    color: gray;
+
+}
+.details button{
+    color: white;
+    background-color: #e72929;
+>>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
     border: none;
     font-size: 1.2rem;
     padding: 1rem;
     border-radius: 10rem;
     outline: none;
+<<<<<<< HEAD
+=======
+
+}
+.details button:hover{
+>>>>>>> 09fbc5a97eb9a6c91109df7a6b16cedde1e3eee9
+    opacity: .9;
+    cursor: pointer;
+>>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
 }
