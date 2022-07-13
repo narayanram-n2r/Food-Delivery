@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ServicesComponent } from '../services/services.component';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+foods:string[]= [];
+  constructor(private fs:ServicesComponent) { }
 
-  constructor() { }
-
-  ngOnInit(): void {
+  ngOnInit(): void { 
+    this.foods = this.fs.getAll(); //done
   }
 
 }

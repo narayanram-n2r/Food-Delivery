@@ -1,0 +1,29 @@
+header{
+    background-color: blanchedalmond;
+    padding: 0;
+    border-bottom: 1px solid red;
+}
+a{
+    color: aqua;
+}
+a:hover{
+    background-color: blueviolet;
+    color:aliceblue;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+a.logo{
+    font-weight: bold;
+    padding: 1em;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li a {
+    padding: 1em;
+    display: inline-block;
+}
