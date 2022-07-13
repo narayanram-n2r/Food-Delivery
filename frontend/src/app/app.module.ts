@@ -10,14 +10,10 @@ import { StarRatingComponent, StarRatingModule } from 'angular-star-rating';
 import { SearchComponent } from './search/search.component';
 import { TagsComponent } from './tags/tags.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
-<<<<<<< HEAD
 import { FoodpageComponent } from './foodpage/foodpage.component';
 
 // import { StarRatingComponent } from 'ng-starrating';
 // import { RatingModule } from 'ng-starrating';
-=======
-import { NotFoundComponent } from './not-found/not-found.component';
->>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
 
 @NgModule({
   declarations: [
@@ -26,14 +22,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     HomeComponent,
     SearchComponent,
     TagsComponent,
-<<<<<<< HEAD
     CartPageComponent,
     FoodpageComponent
-=======
-    FoodpageComponent,
-    CartPageComponent,
-    NotFoundComponent
->>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
   ],
   imports: [
     BrowserModule,
