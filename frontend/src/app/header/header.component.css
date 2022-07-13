@@ -1,5 +1,4 @@
 header{
-<<<<<<< HEAD
     background-color: white;
     padding: 0;
     border-bottom: 1px solid red;
@@ -25,42 +24,13 @@ a.logo{
     padding:1em;
 }
 
-=======
-    background-color: blanchedalmond;
-    padding: 0;
-    border-bottom: 1px solid red;
-}
-a{
-    color: aqua;
-}
-a:hover{
-    background-color: blueviolet;
-    color:aliceblue;
-}
-.container{
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-a.logo{
-    font-weight: bold;
-    padding: 1em;
-}
->>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
 nav ul{
     list-style-type: none;
     margin: 0;
 }
-<<<<<<< HEAD
 
 nav ul li a{
     padding: 1em;
     display: inline-block;
 }
 
-=======
-nav ul li a {
-    padding: 1em;
-    display: inline-block;
-}
->>>>>>> 69ddf2f63048a90cee5182dc255a816b8266b091
