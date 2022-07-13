@@ -34,3 +34,6 @@ nav ul li a{
     display: inline-block;
 }
 
+a logo{
+    font-weight: 600;
+}
