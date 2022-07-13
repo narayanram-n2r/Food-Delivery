@@ -11,7 +11,9 @@ import { SearchComponent } from './search/search.component';
 import { TagsComponent } from './tags/tags.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
-
+import {HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component'
 // import { StarRatingComponent } from 'ng-starrating';
 // import { RatingModule } from 'ng-starrating';
 
@@ -23,13 +25,16 @@ import { FoodpageComponent } from './foodpage/foodpage.component';
     SearchComponent,
     TagsComponent,
     CartPageComponent,
-    FoodpageComponent
+    FoodpageComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    StarRatingModule
+    StarRatingModule,
+    HttpClientModule
     // StarRatingComponent,
     // RatingModule
   ],
