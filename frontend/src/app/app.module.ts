@@ -12,7 +12,6 @@ import { CartPageComponent } from './cart-page/cart-page.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
-import {HttpClientModule} from '@angular/common/http';
 
 
 
