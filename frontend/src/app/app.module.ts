@@ -9,18 +9,12 @@ import { FormsModule } from '@angular/forms';
 import { SearchComponent } from './search/search.component';
 import { TagsComponent } from './tags/tags.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
-<<<<<<< HEAD
-import { NotFoundComponent } from './not-found/not-found.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
-=======
 import { FoodpageComponent } from './foodpage/foodpage.component';
 import {HttpClientModule} from '@angular/common/http';
-import { LoginComponent } from './login/login.component';
-import { SignupComponent } from './signup/signup.component'
-// import { StarRatingComponent } from 'ng-starrating';
-// import { RatingModule } from 'ng-starrating';
->>>>>>> 611d9f6e00ae2e36a25f561bf58089995754b270
+
+
 
 @NgModule({
   declarations: [
@@ -30,11 +24,7 @@ import { SignupComponent } from './signup/signup.component'
     SearchComponent,
     TagsComponent,
     CartPageComponent,
-<<<<<<< HEAD
-    NotFoundComponent,
-=======
     FoodpageComponent,
->>>>>>> 611d9f6e00ae2e36a25f561bf58089995754b270
     LoginComponent,
     SignupComponent
   ],
