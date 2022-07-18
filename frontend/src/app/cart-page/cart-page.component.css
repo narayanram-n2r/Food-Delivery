@@ -96,5 +96,23 @@ ul .remove-button{
 }
 .checkout .total-price::before{
     content: 'Total Price';
+    color: grey;
 
+}
+
+.checkout a{
+    padding: 1rem;
+    color: white;
+    background-color: #e72929;
+    display: block;
+    width: 99%;
+    border-radius: 1rem;
+    text-align: center;
+    opacity: .7;
+    justify-content: center;
+}
+
+.checkout a:hover{
+    opacity: 1;
+    cursor: pointer;
 }

@@ -12,6 +12,7 @@ import { CartPageComponent } from './cart-page/cart-page.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 
@@ -25,7 +26,8 @@ import { FoodpageComponent } from './foodpage/foodpage.component';
     CartPageComponent,
     FoodpageComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
