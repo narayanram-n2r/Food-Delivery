@@ -92,6 +92,7 @@ ul .remove-button{
 }
 .checkout .foods-count::before{
     content: 'Total Products';
+    color: grey;
 
 }
 .checkout .total-price::before{
