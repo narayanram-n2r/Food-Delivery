@@ -1,6 +1,6 @@
 server:
   port: 9000
-#Api Gateway fro routing and load balancing
+
 eureka:
   client:
     service-url:
@@ -15,10 +15,10 @@ spring:
       routes:
       - id: user-service
         uri: lb://user-service
-        predicates:
-        - Path=/api/v1/user/**
-      - id: article-service
-        uri: lb://article-service
-        predicates:
-        - Path=/api/v1/article/**
+#        predicates:
+#        - Path=/api/v1/user/**
+#      - id: article-service
+#        uri: lb://article-service
+#        predicates:
+#        - Path=/api/v1/article/**
         

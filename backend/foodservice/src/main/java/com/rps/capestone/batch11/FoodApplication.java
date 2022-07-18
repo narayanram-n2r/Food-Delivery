@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Batch11Application {
+public class FoodApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Batch11Application.class, args);
+		SpringApplication.run(FoodApplication.class, args);
 	}
 
 }
