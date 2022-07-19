@@ -10,4 +10,4 @@ eureka:
     hostname: localhost
 spring:
   application:
-    name: fooditems
+    name: food-items
