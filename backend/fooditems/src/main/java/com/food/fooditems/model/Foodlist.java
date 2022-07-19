@@ -2,6 +2,8 @@ package com.food.fooditems.model;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.function.BooleanSupplier;
+
 @Document(collection= "food-list")
 
 public class Foodlist {
@@ -38,4 +40,15 @@ public class Foodlist {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    public BooleanSupplier getfooditem() {
+        return null;
+    }
+
+    public Object getEmail() {
+        return null;
+    }
+
+//    public Object getEmail() {
+//    }
 }

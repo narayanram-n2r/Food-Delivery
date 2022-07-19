@@ -12,12 +12,20 @@ public class MyController {
 
     @Autowired
     private FoodlistRepository foodlistRepository;
+
+    /**
+     * @param foodlist foodlist is added as a parameter
+     * @return
+     */
     @PostMapping
     public ResponseEntity<?> addFoodlist(@RequestBody Foodlist foodlist){
         Foodlist save= this.foodlistRepository.save(foodlist);
         return ResponseEntity.ok(save);
     }
 
+    /**
+     * @return  getting all foodlists of items
+     */
     @GetMapping
     public ResponseEntity<?> getFoodlists(){
         return ResponseEntity.ok(this.foodlistRepository.findAll());
