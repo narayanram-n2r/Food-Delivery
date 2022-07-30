@@ -319,10 +319,11 @@
             <div class="card-body">
             <h3 class="card-title" style="justify-content:center">Login</h3>
         <br>
-            <input type="email" placeholder="Email Address" data-placement="right" title="Enter your email address" style="width:7cm" class="io">
+            <input type="email" placeholder="Email Address" ngModel [email]="true"    data-placement="right" title="Enter your email address" style="width:7cm" class="io">
         <br>
         <br>
-            <input type="password" placeholder="Password" data-placement="right" title="Fill your password"  style="width: 7cm"  class="io">
+        <input type="password" id="psw" placeholder="Password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"         data-placement="right" title="Fill your password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" style="width: 7cm;" required>
+
         <br>
         <br>
         <button onclick=""><a href="#" routerLink="/">Sign in</a></button>
